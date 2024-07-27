@@ -20,9 +20,7 @@
         data-bs-theme="dark"
       >
         <div class="container">
-
           <div class="row w-100 align-items-center">
-
             <div class="col-md-4 col-12 text-center text-md-left mb-2 mb-md-0">
               <a href="" class="navbar-brand">
                 <img
@@ -32,73 +30,90 @@
               </a>
             </div>
             <div class="col-md-4 col-12 my-2 my-md-0">
-                <form
-                  class="form-inline d-flex justify-content-center justify-content-md-start"
-                >
-                  <div class="input-group">
-                    <input
-                      type="search"
-                      class="form-control"
-                      placeholder="Buscar..."
-                      aria-label="Punto..."
-                      style="background-color: white"
-                      id="search"
-                    />
-                    <div class="input-group-append">
-                      <button class="btnsearch" type="button">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
+              <form
+                class="form-inline d-flex justify-content-center justify-content-md-start"
+              >
+                <div class="input-group">
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Buscar..."
+                    aria-label="Punto..."
+                    style="background-color: white"
+                    id="search"
+                  />
+                  <div class="input-group-append">
+                    <button class="btnsearch" type="button">
+                      <i class="fas fa-search"></i>
+                    </button>
                   </div>
-                </form>
-              </div>
-              <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0">
-                <div class="navbar-nav ml-auto flex-row">
-                    <a href="" class="nav-item nav-link"
-                      ><i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i
-                    ></a>
-                    <a href="" class="nav-item nav-link ms-2">Registro</a>
-                    <a href="" class="nav-item nav-link ms-5"
-                      ><i
-                        class="fa-solid fa-cart-shopping fa-xl"
-                        style="color: #ffffff"
-                      ></i
-                    ></a>
-                  </div>
+                </div>
+              </form>
             </div>
-
+            <div
+              class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0"
+            >
+              <div class="navbar-nav ml-auto flex-row">
+                <a href="" class="nav-item nav-link"
+                  ><i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i
+                ></a>
+                <a href="" class="nav-item nav-link ms-2">Registro</a>
+                <a href="" class="nav-item nav-link ms-5"
+                  ><i
+                    class="fa-solid fa-cart-shopping fa-xl"
+                    style="color: #ffffff"
+                  ></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
+
       <div>
-        <ul class="navbar-nav lista gap-5 text-light">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Productos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Perifericos</a></li>
-              <li><a class="dropdown-item" href="#">Gabinetes</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Monitores</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Quienes somos</a>
-          </li>
-        </ul>
+        <div class="d-block d-md-none mb-3">
+          <button
+            class="navbar-toggler p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#categoryList"
+            aria-expanded="false"
+            aria-controls="categoryList"
+          >
+            <i class="fas fa-bars fa-xl"></i>
+          </button>
+        </div>
+        <div class="collapse d-md-block" id="categoryList">
+          <ul class="navbar-nav lista gap-lg-5 gap-sm-0 text-light">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Perifericos</a></li>
+                <li><a class="dropdown-item" href="#">Gabinetes</a></li>
+                <li><a class="dropdown-item" href="#">Monitores</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Ofertas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quienes somos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main></main>
