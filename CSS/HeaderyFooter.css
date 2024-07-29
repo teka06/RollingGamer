@@ -1,60 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #181a1b;
-    nav {
-      background-color: #0e0f0f;
-      img {
-        width: 10rem;
-      }
-      #search {
-        border: none;
-        border-radius: 20px 0 0 20px;
-      }
-      .btnsearch {
-        background-color: #ff2cfd;
-        outline: none;
-        border: none;
-        border-radius: 0 10% 10% 0;
-        display: flex;
-        align-items: center;
-        padding: 10px;
-      }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #181a1b;
+  nav {
+    background-color: #0e0f0f;
+    img {
+      width: 13rem;
     }
-    .lista {
+    #search {
+      border: none;
+      border-radius: 20px 0 0 20px;
+    }
+    .btnsearch {
+      background-color: #ff2cfd;
+      outline: none;
+      border: none;
+      border-radius: 0 10% 10% 0;
       display: flex;
-      flex-direction: row;
       align-items: center;
-      justify-content: center;
-      background-color: #181a1b;
-      a {
-        text-decoration: none;
-        color: white;
-      }
-      a:hover {
-        color: #ff2cfd;
-      }
+      padding: 10px;
     }
   }
-  
-  footer {
-    background-color: #222222;
-  
-    .listafooter {
-      list-style: none;
-      color: white;
-      padding: 0;
-      font-size: 13px;
-    }
+  .lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #181a1b;
     a {
       text-decoration: none;
       color: white;
@@ -63,20 +44,38 @@
       color: #ff2cfd;
     }
   }
-  
-  @media screen and (max-width: 768px) {
-    header {
-      .lista {
-        flex-direction: column;
-        align-items: center;
-      }
-      img {
-          margin-left: 30px;
-      }
+}
+
+footer {
+  background-color: #222222;
+
+  .listafooter {
+    list-style: none;
+    color: white;
+    padding: 0;
+    font-size: 13px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: #ff2cfd;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    .lista {
+      flex-direction: column;
+      align-items: center;
     }
-  
-    #search {
-      margin-left: 20px;
+    img {
+      margin-left: 30px;
     }
   }
-  
+
+  #search {
+    margin-left: 20px;
+  }
+}
