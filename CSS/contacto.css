@@ -16,3 +16,9 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width:1024px)  {
+   main{
+    background-position: center;
+   } 
+}
