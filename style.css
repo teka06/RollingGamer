@@ -19,10 +19,14 @@ main {
             background-position: center;
             text-transform: uppercase;
             overflow: hidden;
-            a{
-                text-decoration: none;
-                color: white;
-            }
+            height: 8rem;
+            transition: 0.3s ease;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        button:active {
+            transform: scale(1);
         }
     }
 }
