@@ -1,56 +1,98 @@
 
-/* .oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body {
+  }
+  
+  body {
     margin: 0;
     padding: 0;
-}
-main {
-    display: flex;
-    flex-direction: column;
-    background-color: #202324;
-    font-family: "Oswald", sans-serif;
-
-    .botones1 {
-
-        button {
-            background-size: cover;
-            background-position: center;
-            text-transform: uppercase;
-            overflow: hidden;
-            height: 8rem;
-            transition: 0.3s ease;
-        }
-        button:hover {
-            transform: scale(1.05);
-        }
-        button:active {
-            transform: scale(1);
-        }
+  }
+  
+  header {
+    background-color: #181a1b;
+    font-family: oswald;
+    font-weight: 300;
+    
+    nav {
+      background-color: #0e0f0f;
+      img {
+        width: 13rem;
+      }
+      #search {
+        border: none;
+        border-radius: 20px 0 0 20px;
+      }
+      .btnsearch {
+        background-color: #ff2cfd;
+        outline: none;
+        border: none;
+        border-radius: 0 10% 10% 0;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
     }
-    .marcas1 {
-        a {
-            border: 2px solid #181a1b;
-            border-radius: 50%;
-            padding: 1rem;
-            transition: all 0.4s ease-in-out;
-            display: inline-block;
-            position: relative;
-        }
-        a:hover {
-            border-color: #ff2cfd;
-            box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd, 0 0 16px #ff2cfd;
-        }
+    .lista {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #181a1b;
+  
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #ff2cfd;
+      }
     }
-}
+    .botonesheader {
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #ff2cfd;
+      }
+    }
+  }
+  
+  footer {
+    background-color: #222222;
+    font-family: oswald;
+    font-weight: 300;
+  
+    .listafooter {
+      list-style: none;
+      color: white;
+      padding: 0;
+      font-size: 13px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      color: #ff2cfd;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    header {
+      .lista {
+        flex-direction: column;
+        align-items: center;
+      }
+      img {
+        margin-left: 30px;
+      }
+    }
+  
+    #search {
+      margin-left: 20px;
+    }
+  }
+  
