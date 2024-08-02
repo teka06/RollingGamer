@@ -40,11 +40,10 @@ main {
         }
     }
     .marcas1 {
-
-        div {
-            padding: 3%;
+        a {
+            border: 2px solid #181a1b;
             border-radius: 50%;
-            border: 2PX solid;
+            padding: 1rem;
         }
     }
 }
