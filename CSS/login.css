@@ -52,7 +52,8 @@ form {
 }
 
 .inner {
-    height: 500px;
+    height: 100%;
+    width: 100%;
     background-color: #282828;
     border-radius: 20px;
     color: rgba(0, 0, 0, .87);
@@ -103,15 +104,19 @@ form {
     border-radius: 4px 4px 0 0;
 }
 
+.form-control:hover {
+    box-shadow: 0 0 6px 4px #ff2cfd;
+}
+
 .form-control:focus {
     color: #ffffff;
-    outline: none; /* Asegurarse de que no haya borde de enfoque por defecto */
+    outline: none;
     box-shadow: 0 0 8px 5px #9c189a;
     background-color: #282828;
 }
 
 .form-control::placeholder {
-    color: #cccccc; /* Color del placeholder */
+    color: #a8a8a8;
 }
 
 
@@ -123,11 +128,6 @@ form {
 }
 
 
-
-.form-control:hover {
-    box-shadow: 0 0 6px 4px #ff2cfd;
-}
-
 .form-group input:first-child {
     margin-right: 25px;
 }
@@ -138,37 +138,20 @@ form {
 }
 
 
-
-
-
-
-
-
-
-select {
-    cursor: pointer;
-    color: gray;
-}
-
-select option[value=""] [disabled] {
-    display: none
-}
-
-
 .contenedor-restaurar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-bottom: 20px;
 
     .restaurar {
         text-decoration: none;
-        color: #afafaf;
+        color: #cccccc;
         font-size: 14px;
     }
 
     .restaurar:hover {
         color: #ff4bfc;
-        /* Cambia este color al que desees */
     }
 }
 
