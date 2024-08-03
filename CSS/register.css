@@ -76,7 +76,7 @@ form {
     text-transform: uppercase;
     font-size: 25px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .form-group {
@@ -95,7 +95,7 @@ form {
     border-radius: 4px 4px 0 0;
 }
 
-.form-group2 input{
+.form-group2 input {
     width: 100%;
     background-color: #282828;
     color: #ffffff;
@@ -103,6 +103,7 @@ form {
     border: none;
     border-bottom: 1px solid;
     border-radius: 4px 4px 0 0;
+    margin-bottom: 20px;
 }
 
 .form-control:focus {
@@ -113,7 +114,7 @@ form {
 }
 
 .form-control::placeholder {
-    color: #cccccc;
+    color: #a8a8a8;
     /* Color del placeholder */
 }
 
@@ -122,7 +123,8 @@ form {
     border: none;
     width: 100%;
     height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 
 
@@ -141,35 +143,45 @@ form {
 }
 
 
-
-
-
-
-
-
-
-select {
-    cursor: pointer;
-    color: gray;
-}
-
-select option[value=""] [disabled] {
-    display: none
-}
-
-
 .contenedor-registro {
     display: flex;
     flex-direction: row;
-    gap: 15px;
     align-items: center;
+    justify-content: center;
+    gap: 15px;
     margin-bottom: 15px;
 
     .restaurar {
-        color: #afafaf;
+        color: #dfdfdf;
+        text-align: center;
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
+}
+
+.btn-registrar:hover{
+    opacity: 0.9;
+    background: linear-gradient(to right, #ff2cfd, #5607bd);
+}
+
+
+.btn-registrar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to right, #ff2cfd, #5607bd);
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .btn-iniciar:hover {
@@ -184,10 +196,9 @@ select option[value=""] [disabled] {
     align-items: center;
     text-decoration: none;
     border: none;
-    border-radius: 50px;
     padding: 10px 20px;
     height: 30px;
-    width: 100px;
+    width: 80px;
     background: linear-gradient(to right, #ff2cfd, #5607bd);
     border: none;
     color: white;
@@ -196,8 +207,10 @@ select option[value=""] [disabled] {
     transition: background 0.3s ease;
 }
 
+
+
 .contenedor-separador {
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
 
@@ -247,6 +260,9 @@ select option[value=""] [disabled] {
         /* Cambiar el color al pasar el ratón */
     }
 }
+
+
+
 
 
 @media (max-width: 767px) {
