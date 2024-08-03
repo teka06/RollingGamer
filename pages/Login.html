@@ -92,35 +92,45 @@
 
 
     <main>
-        <div class="container">
-            <div class="insertar">
-                <div class="imagen">
-                    <img src="" alt="">
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-holder">
+                    <img src="/RollingGamer/assets/img/icono.png" alt="">
                 </div>
 
                 <form>
-                    <h3>INICIAR</h3>
-                    <input type="email" placeholder="Email" class="form-control" required>
-                    <input type="password" placeholder="Contraseñña" class="form-control" required>
+                    <h3>Iniciar</h3>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-control" required>
+                        <input type="password" placeholder="Contraseña" class="form-control" required>
+                    </div>
+
+                    <div class="contenedor-restaurar">
+                        <a href="#" class="restaurar">
+                            Registrarse
+                        </a>
+                        <a href="#" class="restaurar">
+                            Olvide mi clave
+                        </a>
+                    </div>
+
+                    <a href="#"><button>Iniciar sesión</button></a>
+                    <div class="contenedor-separador">
+                        <span class="separador login-form-separador">
+                            <p>Otras opciones de inicio de sesión</p>
+                        </span>
+
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
+                            <a href="#"><i class="fa-brands fa-google icon"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+                        </div>
+                    </div>
+                </form>
+
+
             </div>
 
-            <div class="contenedor-restaurar">
-                <a href="#">Registrarse</a>
-                <a href="#">Olvide mi clave</a>
-            </div>
-
-            <a href="#"><button>Iniciar Sesión</button></a>
-            <div class="contenedor-separador">
-                <span class="separador login-form-separador">
-                    <p>Otras opciones de inicio de sesión</p>
-                </span>
-
-                <div class="social">
-                    <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
-                    <a href="#"><i class="fa-brands fa-google icon"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
-                </div>
-            </div>
         </div>
         </form>
     </main>
