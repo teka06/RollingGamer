@@ -53,5 +53,16 @@ main {
             outline: 1PX SOLID #ff2cfd;
             border-radius: 0;
         }
+        .inputbanner:hover {
+            box-shadow: 0 0 3px 2px #ff2cfd;
+        }
+        .inputbanner:focus {
+            color: #ffffff;
+            outline: none;
+            box-shadow: 0 0 4px 2.5px #a41ca2;
+        }
+        .inputbanner::placeholder {
+            color: rgb(59, 59, 59);
+        }
     }
 }
