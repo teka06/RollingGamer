@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: antiquewhite;
     color: #333;
     margin: 0;
 }
 
 main {
     min-height: 90vh;
+    background-color: #333;
 }
 
 input,
@@ -36,8 +36,6 @@ form {
     justify-content: center;
 }
 
-
-
 .wrapper {
     min-height: 100vh;
     background-size: cover;
@@ -45,6 +43,7 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .inner {
@@ -54,13 +53,13 @@ form {
     border-radius: 20px;
     color: rgba(0, 0, 0, .87);
     border-bottom-color: rgba(0, 0, 0, .42);
-    box-shadow: none !important;
     border: none;
     padding: 20px;
     max-width: 850px;
     margin: auto;
     display: flex;
     justify-content: center;
+    box-shadow: 0 0 20px 5px #ff2cfd;
 }
 
 
@@ -130,19 +129,13 @@ form {
     font-size: 15px;
 }
 
-
-
-
-
 .form-group input:first-child {
     margin-right: 25px;
 }
 
-
 .form-wrapper {
     position: relative;
 }
-
 
 .contenedor-registro {
     display: flex;
@@ -164,7 +157,6 @@ form {
     opacity: 0.9;
     background: linear-gradient(to right, #ff2cfd, #5607bd);
 }
-
 
 .btn-registrar {
     margin-top: 20px;
@@ -191,7 +183,6 @@ form {
     background: linear-gradient(to right, #ff2cfd, #5607bd);
 }
 
-
 .btn-iniciar {
     display: flex;
     justify-content: center;
@@ -209,8 +200,6 @@ form {
     transition: background 0.3s ease;
 }
 
-
-
 .contenedor-separador {
     margin-top: 15px;
     display: flex;
@@ -226,7 +215,6 @@ form {
     .login-form-separador p {
         color: white;
         margin: 0 10px;
-        /* Espaciado horizontal alrededor del texto */
     }
 
     .login-form-separador::before,
@@ -237,7 +225,6 @@ form {
     }
 }
 
-
 .social {
     display: flex;
     justify-content: center;
@@ -246,25 +233,17 @@ form {
 
     .icon {
         font-size: 25px;
-        /* Tamaño del ícono */
         margin: 5px;
-        /* Espaciado alrededor del ícono */
         transition: transform 0.3s ease;
-        /* Transición para efectos de hover */
         color: white;
     }
 
-
     .icon:hover {
         transform: scale(1.2);
-        /* Efecto de agrandamiento al pasar el ratón */
+
         color: #ff2cfd;
-        /* Cambiar el color al pasar el ratón */
     }
 }
-
-
-
 
 
 @media (max-width: 767px) {
@@ -283,5 +262,35 @@ form {
 
     button {
         margin-top: 60px;
+    }
+
+
+    .inner {
+        height: 60%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .inner {
+        display: block;
+    }
+
+    .inner .image-holder {
+        width: 100%;
+    }
+
+    .inner form {
+        width: 100%;
+        padding: 40px 0 30px;
+    }
+
+    button {
+        margin-top: 60px;
+    }
+
+    .inner {
+        height: 60%;
+        width: 80%;
     }
 }
