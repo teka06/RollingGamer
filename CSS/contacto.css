@@ -55,7 +55,9 @@ main {
 .inputneon:focus {
     outline: none;
     box-shadow: 0 0 8px 5px #9c189a;
+    background-color: rgba(204, 204, 204, 0.623);
 }
+
 
 
 
