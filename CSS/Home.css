@@ -5,6 +5,12 @@
   font-style: normal;
 } */
 
+header{
+    .form-control::placeholder{
+        color: #a8a8a8;
+    }
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -21,13 +27,17 @@ main {
             height: 8rem;
             transition: 0.3s ease;
         }
+
         button:hover {
             transform: scale(1.05);
         }
+
         button:active {
             transform: scale(1);
         }
     }
+
+
     .marcas1 {
         a {
             border: 2px solid #181a1b;
@@ -37,21 +47,26 @@ main {
             display: inline-block;
             position: relative;
         }
+
         a:hover {
             border-color: #ff2cfd;
             box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd, 0 0 16px #ff2cfd;
         }
     }
+
     .bannerfinal {
-        background-image: url(/Assets/img/bannerfinal.jpg);
+        background-image: url(/RollingGamer/assets/img/bannerfinal.jpg);
         background-size: cover;
         background-position: center;
 
         .inputbanner {
             background-color: rgba(0, 0, 0, 0.519);
             border: none;
-            outline: 1PX SOLID #ff2cfd;
+            outline: 1px solid #ff2cfd;
             border-radius: 0;
+        }
+        .inputbanner::placeholder{
+            color: #a8a8a8;
         }
     }
 }
