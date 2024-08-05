@@ -1,3 +1,25 @@
 main{
     background-color: rgb(32, 31, 31);
+    font-family: oswald;
 }
+
+.titulo{
+    color: white;
+}
+
+.card{
+   margin: 5%;
+   width: 40%;
+   height: 200px;
+   
+}
+
+@media only screen and (min-width: 480px){
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+
