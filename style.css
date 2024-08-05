@@ -10,6 +10,19 @@
     padding: 0;
   }
   
+  .neon {
+    a{
+      transition: all 0.4s ease-in-out;
+      display: inline-block;
+      position: relative;
+      border-radius: 5px;
+  }
+  a:hover {
+      border-color: #ff2cfd;
+      box-shadow: 0 0 2px #961a94, 0 0 4px #961a94, 0 0 8px #961a94, 0 0 16px #961a94;
+  }
+  }
+  
   header {
     background-color: #181a1b;
     font-family: oswald;
