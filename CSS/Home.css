@@ -11,6 +11,22 @@ main {
     background-color: #202324;
     font-family: "Oswald", sans-serif;
 
+    .vermas {
+        a{
+            font-size: 0.75rem;
+            transition: all 0.4s ease-in-out;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            border-radius: 5px;
+        }
+        a:hover {
+            border-color: #ff2cfd;
+            box-shadow: 0 0 1px #961a94, 0 0 2px #961a94, 0 0 4px #961a94, 0 0 8px #961a94;
+        }
+
+    }
+
     .botones1 {
 
         button {
@@ -52,6 +68,17 @@ main {
             border: none;
             outline: 1PX SOLID #ff2cfd;
             border-radius: 0;
+        }
+        .inputbanner:hover {
+            box-shadow: 0 0 3px 2px #ff2cfd;
+        }
+        .inputbanner:focus {
+            color: #ffffff;
+            outline: none;
+            box-shadow: 0 0 4px 2.5px #a41ca2;
+        }
+        .inputbanner::placeholder {
+            color: rgb(59, 59, 59);
         }
     }
 }
