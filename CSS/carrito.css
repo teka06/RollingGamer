@@ -3,6 +3,7 @@ main {
   display: flex;
 
   .lista {
+
     li {
       background-color: #202324;
       color: white;
@@ -60,12 +61,7 @@ main {
   }
   .detalles {
     
-    .total{
-        padding: 2%;
-        outline: 1px solid #ff2cfd;
-        border-radius: 5PX;
-        height: 15vh;
-    }
+
     .envio, .cupon {
        input {
             background-color: transparent;
