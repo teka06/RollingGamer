@@ -59,7 +59,7 @@ main {
         }
     }
     .bannerfinal {
-        background-image: url(/Assets/img/bannerfinal.jpg);
+        background-image: url(/Assets/img/banner/bannerfinal.jpg);
         background-size: cover;
         background-position: center;
 
