@@ -6,7 +6,7 @@ main {
     li {
       background-color: #202324;
       color: white;
-      width: 55%;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -56,6 +56,35 @@ main {
           margin-bottom: 5px;
         }
       }
+    }
+  }
+  .detalles {
+    
+    .total{
+        padding: 2%;
+        outline: 1px solid #ff2cfd;
+        border-radius: 5PX;
+        height: 15vh;
+    }
+    .envio {
+       input {
+            background-color: transparent;
+            border: none;
+            outline: 1PX SOLID #ff2cfd;
+            border-radius: 0;
+            padding: 2px 5px;
+        }
+        input:hover {
+            box-shadow: 0 0 3px 2px #ff2cfd;
+        }
+        input:focus {
+            color: #ffffff;
+            outline: none;
+            box-shadow: 0 0 4px 2.5px #a41ca2;
+        }
+        input::placeholder {
+            color: rgb(59, 59, 59);
+        }
     }
   }
 }
