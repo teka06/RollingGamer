@@ -1,0 +1,61 @@
+main {
+  background-color: #202324;
+  display: flex;
+
+  .lista {
+    li {
+      background-color: #202324;
+      color: white;
+      width: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+
+      .product {
+        display: flex;
+        gap: 1rem;
+        width: 50%;
+        align-items: center;
+      }
+
+      h5 {
+        font-weight: 350;
+      }
+
+      img {
+        width: 4rem;
+      }
+
+      .cantidad {
+        background-color: #181a1b;
+        height: 100%;
+        width: 5rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        outline: 1px SOLID #ff2cfd;
+
+        .btn {
+          color: white;
+          border-radius: 0;
+        }
+      }
+      .precio {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        .delete {
+          border: none;
+          text-decoration: none;
+          background-color: transparent;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
