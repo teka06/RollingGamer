@@ -35,22 +35,26 @@ main {
 
     .botones1 {
 
-        button {
-            background-size: cover;
-            background-position: center;
-            text-transform: uppercase;
-            overflow: hidden;
-            height: 8rem;
-            transition: 0.3s ease;
+        a {
+            width: 100%;
+            button {
+                background-size: cover;
+                background-position: center;
+                text-transform: uppercase;
+                overflow: hidden;
+                height: 8rem;
+                transition: 0.3s ease;
+            }
+    
+            button:hover {
+                transform: scale(1.05);
+            }
+    
+            button:active {
+                transform: scale(1);
+            }
         }
 
-        button:hover {
-            transform: scale(1.05);
-        }
-
-        button:active {
-            transform: scale(1);
-        }
     }
 
 
@@ -71,11 +75,7 @@ main {
     }
 
     .bannerfinal {
-<<<<<<< HEAD
-        background-image: url(/RollingGamer/assets/img/bannerfinal.jpg);
-=======
         background-image: url(/Assets/img/banner/bannerfinal.jpg);
->>>>>>> 0d4b4a57361dedd9cc05cb3ef16e722d44067c63
         background-size: cover;
         background-position: center;
 
@@ -85,10 +85,8 @@ main {
             outline: 1px solid #ff2cfd;
             border-radius: 0;
         }
-<<<<<<< HEAD
         .inputbanner::placeholder{
             color: #a8a8a8;
-=======
         .inputbanner:hover {
             box-shadow: 0 0 3px 2px #ff2cfd;
         }
@@ -99,7 +97,7 @@ main {
         }
         .inputbanner::placeholder {
             color: rgb(59, 59, 59);
->>>>>>> 0d4b4a57361dedd9cc05cb3ef16e722d44067c63
         }
     }
+}
 }
