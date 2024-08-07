@@ -1,0 +1,113 @@
+main {
+  background-color: #202324;
+  display: flex;
+
+  .lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+
+    li {
+      background-color: #202324;
+      color: white;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem;
+      border-radius: 5px;
+
+      .product {
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      h5 {
+        font-weight: 350;
+      }
+
+      img {
+        width: 4rem;
+      }
+
+      .cantidad {
+        background-color: #181a1b;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5PX;
+        outline: 1px solid #ff2cfd;
+        padding: 0.5 1rem;
+
+        .btn {
+          color: white;
+          border-radius: 0;
+        }
+      }
+      .precio {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+
+        .delete {
+          border: none;
+          text-decoration: none;
+          background-color: transparent;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .detalles {
+    
+
+    .envio, .cupon {
+       input {
+            background-color: transparent;
+            border: none;
+            outline: 1PX SOLID #ff2cfd;
+            border-radius: 0;
+            padding: 2px 5px;
+        }
+        input:hover {
+            box-shadow: 0 0 3px 2px #ff2cfd;
+        }
+        input:focus {
+            color: #ffffff;
+            outline: none;
+            box-shadow: 0 0 4px 2.5px #a41ca2;
+        }
+        input::placeholder {
+            color: rgb(59, 59, 59);
+        }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+    .lista {
+        li {
+            flex-direction: row;
+            align-items: center;
+            gap: 3rem;
+        }
+        .product {
+            flex-direction: row;
+            width: 50%;
+        }
+        .precio {
+            margin-top: 0;
+        }
+    }
+
+    
+}
