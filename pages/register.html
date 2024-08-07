@@ -158,19 +158,18 @@
                 <form>
                     <h3>Registrarse</h3>
                     <div class="form-group">
-                        <input type="text" placeholder="Nombre" class="control-inputs" required>
-                        <input type="text" placeholder="Apellido" class="control-inputs" required>
-                    </div>
+                      <input type="text" placeholder="Nombre" class="control-inputs" required minlength="5" maxlength="15">
+                      <input type="text" placeholder="Apellido" class="control-inputs" required minlength="5" maxlength="15">
+                  </div>
 
-                    <div class="form-group2">
-                        <input type="text" placeholder="Nombre de usuario" class="control-inputs" required>
-                        <input type="email" placeholder="Email" class="control-inputs" required>
-                        <input type="text" placeholder="Teléfono" class="control-inputs" required>
-                        <input type="text" placeholder="Domicilio" class="control-inputs" required>
-                        <input type="text" placeholder="Código postal" class="control-inputs" required>
-                        <input type="password" placeholder="Contraseña" class="control-inputs" required>
-                        <input type="password" placeholder="Repetir Contraseña" class="control-inputs" required>
-                    </div>
+                  <div class="form-group2">
+                      <input type="text" placeholder="Nombre de usuario" class="control-inputs" required minlength="10" maxlength="20">
+                      <input type="email" placeholder="Email" class="control-inputs" required minlength="5" maxlength="15">
+                      <input type="tel" placeholder="Teléfono (debe tener 10 números)" class="control-inputs" required pattern="[0-9]{10}">
+                      <input type="text" placeholder="Domicilio" class="control-inputs" required minlength="8" maxlength="20">
+                      <input type="text" placeholder="Código postal" class="control-inputs" required minlength="4" maxlength="9">
+                      <input type="password" placeholder="Contraseña (entre 8 o 20 carácteres)" class="control-inputs" required minlength="8" maxlength="20">
+                  </div>
 
                     <div class="contenedor-registro">
                         <button class="btn-registrar">Registrarse</button>
