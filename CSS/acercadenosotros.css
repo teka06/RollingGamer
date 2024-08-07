@@ -1,39 +1,66 @@
-main{
-    background-color: #202324;
-    font-family: oswald;
+main {
+  background-color: #202324;
+  font-family: oswald;
 }
 
-.titulo{
-    color: white;
+.card {
+  padding: 10px 20px;
+  width: 260px;
+  padding-top: 20px;
+  border-radius: 8%;
 }
 
-.card{
-    padding: 10px 20px;
-    width: 260px;
-    height: auto;
-    padding-top: 20px;
-    border-radius: 8%;
-
-
+.foto {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100px;
 }
 
-.foto{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+.foto:hover {
+  outline: none;
+  box-shadow: 0 0 8px 5px #9c189a;
+  background-color: rgba(204, 204, 204, 0.623);
 }
 
-.card-text{
-    display: flex;
+.nombre{
+    height: 80px;
     text-align: center;
-    margin-top: 20px;
 }
 
-.card-neon{
-    box-shadow: 0 0 8px 5px #9c189a;
-    background-color: #474b4e;
+.card-text {
+  text-align: center;
+  height: 140px;
+  width: 200px;
 }
 
-.card-body{
+
+.card-neon {
+  box-shadow: 0 0 8px 5px #9c189a;
+  background-color: #474b4e;
+}
+
+.card-body {
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+.icono {
+  position: absolute;
+  bottom: 20px;
+  left: 115px;
+}
+
+
+
+a {
     color: white;
+    font-size: 22px;
+
+}
+
+a:hover{
+    color: #9c189a;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
 }
