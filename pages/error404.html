@@ -10,7 +10,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/CSS/contacto.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -157,79 +156,51 @@
       </div>
     </header>
 
-    <main style="min-height: 100vh">
-      <section class="text-center pt-5">
-        <h2 class="titulocontactanos">Contactanos</h2>
-      </section>
-      <div class="row p-5">
-        <div id="consulta" class="col-sm-12 col-md-6 mb-3">
-          <h4>Envianos tu consulta</h4>
-          <form>
-            <div class="mb-3">
-              <label for="Nombre" class="form-label">Nombre y Apellido</label>
-              <input
-                type="text"
-                class="form-control inputneon"
-                id="Nombre"
-                placeholder="Ej. Juan Roman"
-                minlength="4"
-                maxlength="30"
-                required
-              />
-            </div>
-            <div class="mb-3">
-              <label for="Email" class="form-label">Email</label>
-              <input 
-                type="email"
-                class="form-control inputneon"
-                id="Email"
-                placeholder="juanroman@gmail.com"
-                minlength="8"
-                maxlength="30"
-                required
-              />
-            </div>
-            <div class="mb-3">
-              <label for="Consulta" class="form-label">Consulta</label>
-              <textarea
-                name="Consulta"
-                class="form-control inputneon"
-                rows="10"
-                id="Consulta"
-                placeholder="Escriba su consulta aquí"
-                minlength="30"
-                maxlength="500"
-              ></textarea>
-            </div>
-            <div class="mb-3 form-check">
-              <input 
-                type="checkbox"
-                class="form-check-input inputneon"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Suscribite para recibir novedades</label
-              >
-            </div>
-            <div class="efectoneon">
-            <a href="" >
-              <button type="submit" class="btn-enviar">Enviar</button>
-            </a>
-          </div>
-          </form>
+    <main
+      style="background-color: #202324; font-family: oswald;"
+      class="d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="container text-center d-block align-items-center justify-content-center my-4 neon"
+      >
+        <img
+          style="width: 100%"
+          src="/Assets/img/—Pngtree—template internet banner with glitch_5993589.png"
+          alt="Error404"
+        />
+        <div class="d-flex align-items-center justify-content-center gap-4">
+            <a href="/index.html" 
+            ><button
+              type="button"
+              class="btn text-light fs-4"
+              style="
+                --bs-btn-padding-y: 0.30rem;
+                --bs-btn-padding-x: 1.5rem;
+                --bs-btn-font-size: 1rem;
+                background-color: #ff2cfd;
+                font-weight: 400;
+              "
+            >
+            <i class="fa-solid fa-house"></i>
+              VOLVER AL INICIO
+            </button></a>
+            <a href="/pages/contacto.html"
+            ><button
+              type="button"
+              class="btn text-light fs-4"
+              style="
+                --bs-btn-padding-y: 0.30rem;
+                --bs-btn-padding-x: 1.5rem;
+                --bs-btn-font-size: 1rem;
+                background-color: #ff2cfd;
+                font-weight: 400;
+              "
+            >
+            
+              AYUDA
+            </button></a>
         </div>
-        <div class="col-sm-12 col-md-6 mb-3">
-          <h4 class="titulomapa">Vení a visitar nuestro local</h4>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3560.077189546994!2d-65.20886568255612!3d-26.837497094902876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1722444009290!5m2!1ses-419!2sar"
-            width="100%"
-            height="600"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+
       </div>
     </main>
 

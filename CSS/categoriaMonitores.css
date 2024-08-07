@@ -1,0 +1,66 @@
+main {
+    background-color: #202324;
+    padding: 0;
+    margin: 0;
+}
+
+.color-sidebar {
+    background-color: #202324;
+}
+
+.accordion-body ul li {
+    list-style: none;
+    font-family: oswald;
+}
+
+.accordion-button {
+    background-color: #202324;
+}
+
+.accordion-button:hover {
+    background-color: #202324;
+    transition: none;
+}
+
+.accordion:hover:active {
+    transition: none;
+    background-color: #202324;
+}
+
+.dropdown-menu {
+    background-color: #202324;
+    font-family: oswald;
+}
+
+.dropdown-toggle {
+    font-family: oswald;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: oswald;
+}
+
+.dropdown-menu li {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.accordion-button {
+    font-family: oswald;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #202324;
+    color: var(--bs-accordion-active-color)
+}
+
+.page-link {
+    color: white;
+    background-color: #202324;
+}
+
+.page-link:hover {
+    color: #ff2cfd;
+}
