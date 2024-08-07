@@ -35,22 +35,26 @@ main {
 
     .botones1 {
 
-        button {
-            background-size: cover;
-            background-position: center;
-            text-transform: uppercase;
-            overflow: hidden;
-            height: 8rem;
-            transition: 0.3s ease;
+        a {
+            width: 100%;
+            button {
+                background-size: cover;
+                background-position: center;
+                text-transform: uppercase;
+                overflow: hidden;
+                height: 8rem;
+                transition: 0.3s ease;
+            }
+    
+            button:hover {
+                transform: scale(1.05);
+            }
+    
+            button:active {
+                transform: scale(1);
+            }
         }
 
-        button:hover {
-            transform: scale(1.05);
-        }
-
-        button:active {
-            transform: scale(1);
-        }
     }
 
 
