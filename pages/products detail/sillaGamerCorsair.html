@@ -239,10 +239,10 @@
           <span class="mas"> + </span>
         </div>
         <div class="box-comprar">
-          <button class="boton-comprar" type="button">COMPRAR</button>
+          <a href="/pages/carrito.html" class="boton-comprar">COMPRAR</a>
         </div>
         <div class="box-carrito">
-          <button class="boton-carrito" type="button">AGREGAR AL CARRITO</button>
+          <a href="/pages/carrito.html" class="boton-carrito">AGREGAR AL CARRITO</a>
         </div>
         <div class="info-box">
           <span>12 cuotas fijas de $58.119</span>
@@ -253,7 +253,7 @@
               <button type="button" class="boton-cuotas" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Ver cuotas
               </button>
-  
+
               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
@@ -262,16 +262,29 @@
                       <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Tarjetas y Cuotas</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+
                     <div class="modal-body text-center text-light fs-6 font-monospace">
                       <div>
-                       <span>Visa, Mastercard y Cabal</span>
+                        <span>Visa, Mastercard y Cabal</span>
                       </div>
+
                       <div class="d-flex justify-content-around mt-3">
-                        <span>Cuotas</span>
-                        <span>Valor de cuota</span>
-                        <span>Precio calculado</span>
+                        <div >
+                          <span>Cuotas</span>
+                        </div>
+                        
+                        <div>
+                          <span>Valor</span>
+                        </div>
+                        
+                        <div>
+                          <span>Total</span>
+                        </div>
+                        
                       </div>
+
                       <hr>
+
                       <div class="d-flex justify-content-around font-monospace">
                         <div class="d-flex flex-column text-center">
                           <span>1 Cuota</span>
@@ -279,26 +292,29 @@
                           <span>6 Cuotas</span>
                           <span>12 Cuotas</span>
                         </div>
+
                         <div class="d-flex flex-column text-center">
-                          <span>$697.429</span>
-                          <span>$232.476</span>
-                          <span>$116.238</span>
-                          <span>$58.119</span>
+                          <span>$1.262.298</span>
+                          <span>$421.766</span>
+                          <span>$210.883</span>
+                          <span>$105.441.5</span>
                         </div>
+
                         <div class="d-flex flex-column text-center">
-                          <span>$697.429</span>
-                          <span>$812.129</span>
-                          <span>$1.114.798</span>
-                          <span>$1.349.195</span>
+                          <span>$1.262.298</span>
+                          <span>$1.832.236</span>
+                          <span>$2.251.535</span>
+                          <span>$2.518.319</span>
                         </div>
+
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-            
+
           </article>
         </div>
         <div class="info-box2">
@@ -361,7 +377,7 @@
                       maxlength="4" pattern="^[0-9]{4}$">
                   </div>
                   <div class="modal-footer border-0 d-flex justify-content-center">
-                    <button type="button" class="btn consulta-boton">HACER CONSULTA</button>
+                    <button type="button" class="btn consulta-boton">CONSULTAR ENVIO</button>
                   </div>
                 </div>
               </div>
