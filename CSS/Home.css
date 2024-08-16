@@ -17,6 +17,23 @@ main {
     background-color: #202324;
     font-family: "Oswald", sans-serif;
 
+
+    .tarjetas {
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        .card-1 {
+            overflow: hidden;
+            cursor: default;
+            transition: all 400ms ease;
+        }
+        .card-1:hover {
+            transform: scale(1.01);
+        }
+
+    }
+
     .vermas {
         a{
             font-size: 0.75rem;
