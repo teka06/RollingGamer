@@ -5,99 +5,97 @@
   font-style: normal;
 } */
 
-header{
-    .form-control::placeholder{
-        color: #a8a8a8;
-    }
+header {
+  .form-control::placeholder {
+    color: #a8a8a8;
+  }
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    background-color: #202324;
-    font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #202324;
+  font-family: "Oswald", sans-serif;
 
-    .vermas {
-        a{
-            font-size: 0.75rem;
-            transition: all 0.4s ease-in-out;
-            display: inline-block;
-            position: relative;
-            width: 100%;
-            border-radius: 5px;
-        }
-        a:hover {
-            border-color: #ff2cfd;
-            box-shadow: 0 0 1px #961a94, 0 0 2px #961a94, 0 0 4px #961a94, 0 0 8px #961a94;
-        }
-
+  .vermas {
+    a {
+      font-size: 0.75rem;
+      transition: all 0.4s ease-in-out;
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      border-radius: 5px;
     }
-
-    .botones1 {
-
-        a {
-            width: 100%;
-            button {
-                background-size: cover;
-                background-position: center;
-                text-transform: uppercase;
-                overflow: hidden;
-                height: 8rem;
-                transition: 0.3s ease;
-            }
-    
-            button:hover {
-                transform: scale(1.05);
-            }
-    
-            button:active {
-                transform: scale(1);
-            }
-        }
-
+    a:hover {
+      border-color: #ff2cfd;
+      box-shadow: 0 0 1px #961a94, 0 0 2px #961a94, 0 0 4px #961a94,
+        0 0 8px #961a94;
     }
+  }
 
-
-    .marcas1 {
-        a {
-            border: 2px solid #181a1b;
-            border-radius: 50%;
-            padding: 1rem;
-            transition: all 0.4s ease-in-out;
-            display: inline-block;
-            position: relative;
-        }
-
-        a:hover {
-            border-color: #ff2cfd;
-            box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd, 0 0 16px #ff2cfd;
-        }
-    }
-
-    .bannerfinal {
-        background-image: url(/Assets/img/banner/bannerfinal.jpg);
+  .botones1 {
+    a {
+      width: 100%;
+      button {
         background-size: cover;
         background-position: center;
+        text-transform: uppercase;
+        overflow: hidden;
+        height: 8rem;
+        transition: 0.3s ease;
+      }
 
-        .inputbanner {
-            background-color: rgba(0, 0, 0, 0.519);
-            border: none;
-            outline: 1px solid #ff2cfd;
-            border-radius: 0;
-        }
-        .inputbanner::placeholder{
-            color: #a8a8a8;
-        .inputbanner:hover {
-            box-shadow: 0 0 3px 2px #ff2cfd;
-        }
-        .inputbanner:focus {
-            color: #ffffff;
-            outline: none;
-            box-shadow: 0 0 4px 2.5px #a41ca2;
-        }
-        .inputbanner::placeholder {
-            color: rgb(59, 59, 59);
-        }
+      button:hover {
+        transform: scale(1.05);
+      }
+
+      button:active {
+        transform: scale(1);
+      }
     }
-}
+  }
+
+  .marcas1 {
+    a {
+      border: 2px solid #181a1b;
+      border-radius: 50%;
+      padding: 1rem;
+      transition: all 0.4s ease-in-out;
+      display: inline-block;
+      position: relative;
+    }
+
+    a:hover {
+      border-color: #ff2cfd;
+      box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd,
+        0 0 16px #ff2cfd;
+    }
+  }
+
+  .bannerfinal {
+    background-image: url(/RollingGamer/Assets/img/banner/bannerfinal.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .inputbanner {
+      background-color: rgba(0, 0, 0, 0.519);
+      border: none;
+      outline: 1px solid #ff2cfd;
+      border-radius: 0;
+    }
+    .inputbanner::placeholder {
+      color: #a8a8a8;
+      .inputbanner:hover {
+        box-shadow: 0 0 3px 2px #ff2cfd;
+      }
+      .inputbanner:focus {
+        color: #ffffff;
+        outline: none;
+        box-shadow: 0 0 4px 2.5px #a41ca2;
+      }
+      .inputbanner::placeholder {
+        color: rgb(59, 59, 59);
+      }
+    }
+  }
 }
