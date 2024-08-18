@@ -97,37 +97,44 @@ text-decoration-thickness: 2px;
 }
 
 .box-comprar {
-    margin-top: 20px;
-}
-
-.boton-comprar {
     height: 31px;
     width: 250px;
     background-color: #ff2cfd;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #9c189a;
+    cursor: pointer;
+}
+
+.boton-comprar {
+    width: 250px;
+    text-decoration: none;
     border: none;
     color: white;
     font-size: 20px;
     cursor: pointer;
     outline: none;
-    box-shadow: 0 0 10px 2px #9c189a;
 }
 
-.boton-comprar:hover {
+.box-comprar:hover {
     transition: 0.2s ease-in-out;
-    box-shadow: 0 0 10px 5px #9c189a;}
+    box-shadow: 0 0 10px 5px #9c189a;
+}
 
 .box-carrito {
-    margin-top: 20px;
-}
-
-.boton-carrito {
     height: 31px;
     width: 250px;
     background-color: #2f3234;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-carrito {
+    text-decoration: none;
     border: none;
     color: #ff2cfd;
     font-size: 20px;
-    cursor: pointer;
 }
 
 .info-box {
