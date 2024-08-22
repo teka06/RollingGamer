@@ -11,7 +11,7 @@ body {
 
 main {
   margin: 0;
-  background-image: url(/RollingGamer/assets/img/Imagen\ de\ WhatsApp\ 2024-07-29\ a\ las\ 01.30.01_9930995a.jpg);
+  background-image: url(/assets/img/Imagen\ de\ WhatsApp\ 2024-07-29\ a\ las\ 01.30.01_9930995a.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: oswald;
@@ -33,37 +33,41 @@ main {
   background-color: rgba(204, 204, 204, 0.623);
 }
 
-.efectoneon {
-  a {
-    transition: all 0.4 ease-in-out;
-    display: inline-block;
-    position: relative;
-    border-radius: 50px;
-  }
-  a:hover {
-    border-color: #ff2cfd;
-    box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd,
-      0 0 16px #ff2cfd;
-  }
+.efectoneon{
+    a{
+        transition: all 0.4 ease-in-out ;
+        display: inline-block;
+        position: relative;
+        border-radius: 50px;
+        
+        
+    }
+    a:hover{
+        border-color: #ff2cfd;
+            box-shadow: 0 0 2px #ff2cfd, 0 0 4px #ff2cfd, 0 0 8px #ff2cfd, 0 0 16px #ff2cfd;
+    }
 }
 
 .inputneon:hover {
-  box-shadow: 0 0 6px 4px #ff2cfd;
+    box-shadow: 0 0 6px 4px #ff2cfd;
 }
 
 .inputneon:focus {
-  outline: none;
-  box-shadow: 0 0 8px 5px #9c189a;
-  background-color: rgba(204, 204, 204, 0.623);
+    outline: none;
+    box-shadow: 0 0 8px 5px #9c189a;
+    background-color: rgba(204, 204, 204, 0.623);
 }
 
-.btn-enviar {
-  background: linear-gradient(to right, #ff2cfd, #5607bd);
-  opacity: 0.9;
-  border-radius: 50px;
-  padding: 10px 20px;
-  color: white;
-  border: none;
+
+
+
+.btn-enviar{
+    background: linear-gradient(to right, #ff2cfd, #5607bd);
+    opacity: 0.9;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
 }
 
 .titulocontactanos {
