@@ -1,251 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/RollingGamer/CSS/login.css" />
-    <link rel="stylesheet" href="/RollingGamer/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="/Assets/img/logo/icono.ico" />
-    <title>Login</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-custom" data-bs-theme="dark">
-        <div class="container">
-          <div class="row w-100 align-items-center justify-content-center">
-            <div class="col-md-4 col-12 text-center text-md-start mb-2 mb-md-0">
-              <a href="/RollingGamer/index.html" class="navbar-brand">
-                <img
-                  src="/RollingGamer/Assets/img/logo/icono.png"
-                  alt="Logo del sitio"
-                  style="width: 8rem"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="/Assets/img/logo/icono.ico">
+    <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-custom" data-bs-theme="dark">
+      <div class="container">
+        <div class="row w-100 align-items-center justify-content-center">
+          <div class="col-md-4 col-12 text-center text-md-start mb-2 mb-md-0">
+            <a href="/index.html" class="navbar-brand">
+              <img
+                src="/Assets/img/logo/icono.png"
+                alt="Logo del sitio"
+                style="width: 8rem"
+              />
+            </a>
+          </div>
+          <div
+            class="col-md-4 col-12 my-3 px-2 my-md-0 d-flex align-items-center justify-content-center"
+          >
+            <form
+              class="form-inline d-flex justify-content-center justify-content-md-start col-12"
+            >
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Buscar..."
+                  aria-label="Punto..."
+                  style="background-color: white"
+                  id="search"
                 />
-              </a>
-            </div>
-            <div
-              class="col-md-4 col-12 my-3 px-2 my-md-0 d-flex align-items-center justify-content-center"
-            >
-              <form
-                class="form-inline d-flex justify-content-center justify-content-md-start col-12"
-              >
-                <div class="input-group">
-                  <input
-                    type="search"
-                    class="form-control"
-                    placeholder="Buscar..."
-                    aria-label="Punto..."
-                    style="background-color: white"
-                    id="search"
-                  />
-                  <div class="input-group-append">
-                    <button class="btnsearch" type="button">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
+                <div class="input-group-append">
+                  <button class="btnsearch" type="button">
+                    <i class="fas fa-search"></i>
+                  </button>
                 </div>
-              </form>
-            </div>
-            <div
-              class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0"
-            >
-              <div
-                class="navbar-nav ml-auto flex-row gap-5 gap-md-3 ms-2 ms-md-0 botonesheader"
-              >
-                <a href="./Login.html" class="nav-item nav-link"
-                  ><i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i
-                ></a>
-                <a href="./register.html" class="nav-item nav-link">Registro</a>
-                <a href="./carrito.html" class="nav-item nav-link"
-                  ><i
-                    class="fa-solid fa-cart-shopping fa-xl"
-                    style="color: #ffffff"
-                  ></i
-                ></a>
               </div>
+            </form>
+          </div>
+          <div
+            class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0"
+          >
+            <div
+              class="navbar-nav ml-auto flex-row gap-5 gap-md-3 ms-2 ms-md-0 botonesheader"
+            >
+              <a href="/pages/Login.html" class="nav-item nav-link"
+                ><i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i
+              ></a>
+              <a href="/pages/register.html" class="nav-item nav-link"
+                >Registro</a
+              >
+              <a href="/pages/carrito.html" class="nav-item nav-link"
+                ><i
+                  class="fa-solid fa-cart-shopping fa-xl"
+                  style="color: #ffffff"
+                ></i
+              ></a>
             </div>
           </div>
         </div>
-      </nav>
-
-      <div>
-        <div class="d-block d-md-none">
-          <button
-            class="navbar-toggler p-3"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#categoryList"
-            aria-expanded="false"
-            aria-controls="categoryList"
-          >
-            <i class="fas fa-bars fa-xl" style="color: #ffffff"></i>
-          </button>
-        </div>
-        <div class="collapse d-md-block" id="categoryList">
-          <ul class="navbar-nav lista gap-lg-5 gap-sm-3 gap-md-3 fs-5">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="./error404.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Productos
-              </a>
-              <ul class="dropdown-menu pe-5 dropdown-menu-dark">
-                <li>
-                  <a
-                    class="dropdown-item text-light"
-                    href="./categoriaPerifericos.html"
-                    >Perifericos</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item text-light"
-                    href="./categoriaMonitores.html"
-                    >Monitores</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Gabinetes</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Placas de Video</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Consolas</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Procesadores</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Almacenamiento</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Fuentes de Poder</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Memorias Ram</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-light" href="./error404.html"
-                    >Motherboards</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./error404.html"
-                >Ofertas</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./acercadenosotros.html"
-                >Quienes somos</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
-    </header>
+    </nav>
+
+    <div>
+      <div class="d-block d-md-none">
+        <button
+          class="navbar-toggler p-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#categoryList"
+          aria-expanded="false"
+          aria-controls="categoryList"
+        >
+          <i class="fas fa-bars fa-xl" style="color: #ffffff"></i>
+        </button>
+      </div>
+      <div class="collapse d-md-block" id="categoryList">
+        <ul class="navbar-nav lista gap-lg-5 gap-sm-3 gap-md-3 fs-5">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="/pages/error404.html"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Productos
+            </a>
+            <ul class="dropdown-menu pe-5 dropdown-menu-dark">
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/categoriaPerifericos.html"
+                  >Perifericos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/categoriaMonitores.html"
+                  >Monitores</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Gabinetes</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Placas de Video</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Consolas</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Procesadores</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Almacenamiento</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Fuentes de Poder</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Memorias Ram</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item text-light"
+                  href="/pages/error404.html"
+                  >Motherboards</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="/pages/error404.html"
+              >Ofertas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/acercadenosotros.html">Quienes somos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
     <main>
-      <div class="wrapper">
-        <div class="inner">
-          <div class="image-holder">
-            <img
-              src="/RollingGamer/Assets/img/logo/icono.png"
-              alt="Logo de Rolling Gamer"
-            />
-          </div>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-holder">
+                    <img src="/Assets/img/logo/icono.png" alt="Logo de Rolling Gamer">
+                </div>
 
-          <form>
-            <h3>Iniciar</h3>
-            <div class="form-group">
-              <input
-                type="email"
-                placeholder="Email"
-                class="control-inputs"
-                required
-              />
-              <input
-                type="password"
-                placeholder="Contraseña"
-                class="control-inputs"
-                required
-              />
+                <form>
+                    <h3>Iniciar</h3>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="control-inputs" required>
+                        <input type="password" placeholder="Contraseña" class="control-inputs" required>
+                    </div>
+
+                    <div class="contenedor-restaurar">
+                        <a href="/pages/register.html" class="restaurar">
+                            Registrarse
+                        </a>
+                        <a href="/pages/error404.html" class="restaurar">
+                            Olvide mi clave
+                        </a>
+                    </div>
+
+                    <button class="btn-iniciar">Iniciar Sesión</button>
+                    <div class="contenedor-separador">
+                        <span class="separador login-form-separador">
+                            <p>O puedes iniciar con</p>
+                        </span>
+
+                        <div class="social">
+                            <a href="/pages/error404.html"><i class="fa-brands fa-facebook icon"></i></a>
+                            <a href="/pages/error404.html"><i class="fa-brands fa-google icon"></i></a>
+                            <a href="/pages/error404.html"><i class="fa-brands fa-instagram icon"></i></a>
+                        </div>
+                    </div>
+                </form>
             </div>
-
-            <div class="contenedor-restaurar">
-              <a href="./register.html" class="restaurar"> Registrarse </a>
-              <a href="./error404.html" class="restaurar"> Olvide mi clave </a>
-            </div>
-
-            <button class="btn-iniciar">Iniciar Sesión</button>
-            <div class="contenedor-separador">
-              <span class="separador login-form-separador">
-                <p>O puedes iniciar con</p>
-              </span>
-
-              <div class="social">
-                <a href="./error404.html"
-                  ><i class="fa-brands fa-facebook icon"></i
-                ></a>
-                <a href="./error404.html"
-                  ><i class="fa-brands fa-google icon"></i
-                ></a>
-                <a href="./error404.html"
-                  ><i class="fa-brands fa-instagram icon"></i
-                ></a>
-              </div>
-            </div>
-          </form>
         </div>
-      </div>
     </main>
-
     <footer class="text-light pt-2">
       <div class="container">
         <div class="row">
           <div
             class="col-lg-4 col-md-12 mb-3 d-flex flex-column align-items-center align-items-md-start justify-content-center"
           >
-            <a href="/RollingGamer/index.html">
+            <a href="index.html">
               <img
-                src="/RollingGamer/Assets/img/logo/icono.png"
+                src="/Assets/img/logo/icono.png"
                 alt="Logo del sitio"
                 style="width: 15rem"
               />
@@ -255,19 +251,19 @@
               class="d-flex justify-content-start align-items-center gap-3"
             >
               <div class="d-flex gap-3">
-                <a href="./error404.html"
+                <a href="/pages/error404.html"
                   ><i
                     class="fa-brands fa-instagram fa-xl"
                     style="color: #ffffff"
                   ></i
                 ></a>
-                <a href="./error404.html"
+                <a href="/pages/error404.html"
                   ><i
                     class="fa-brands fa-facebook fa-xl"
                     style="color: #ffffff"
                   ></i
                 ></a>
-                <a href="./error404.html"
+                <a href="/pages/error404.html"
                   ><i
                     class="fa-brands fa-twitter fa-xl"
                     style="color: #ffffff"
@@ -286,11 +282,9 @@
             <div>
               <h5>Acerca</h5>
               <ul class="listafooter d-flex flex-column gap-3">
-                <li>
-                  <a href="./acercadenosotros.html">QUIENES SOMOS</a>
-                </li>
-                <li><a href="./error404.html">UBICACION</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="/pages/acercadenosotros.html">QUIENES SOMOS</a></li>
+                <li><a href="/pages/error404.html">UBICACION</a></li>
+                <li><a href="/pages/contacto.html">CONTACTO</a></li>
               </ul>
             </div>
             <div>
@@ -308,32 +302,22 @@
             class="col-lg-4 col-md-6 mb-3 text-center d-flex flex-column align-items-center align-items-md-end justify-content-center gap-2"
           >
             <img
-              src="/RollingGamer/Assets/img/gptw.svg"
+              src="/Assets/img/gptw.svg"
               alt="Certificado"
               style="width: 4rem"
               class="me-md-4"
             />
-            <a href="./error404.html">Trabaja con nosotros</a>
+            <a href="/pages/error404.html">Trabaja con nosotros</a>
           </div>
         </div>
       </div>
-      <p class="p-0 mb-0 text-center" style="font-weight: 300">
-        © 2024 RollingGamers. Todos los derechos reservados.
-      </p>
+      <p class="p-0 mb-0 text-center" style="font-weight: 300;">© 2024 RollingGamers. Todos los derechos reservados.</p>
     </footer>
-  </body>
+</body>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://kit.fontawesome.com/ce1cae7846.js"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://kit.fontawesome.com/ece2dcd5db.js"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ce1cae7846.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ece2dcd5db.js" crossorigin="anonymous"></script>
 </html>

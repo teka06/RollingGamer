@@ -1,6 +1,19 @@
 main {
   background-color: #202324;
   font-family: oswald;
+
+  a {
+    color: white;
+    font-size: 22px;
+
+}
+
+a:hover{
+    color: #9c189a;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
 }
 
 .card {
@@ -51,14 +64,3 @@ main {
 
 
 
-a {
-    color: white;
-    font-size: 22px;
-
-}
-
-a:hover{
-    color: #9c189a;
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-}
