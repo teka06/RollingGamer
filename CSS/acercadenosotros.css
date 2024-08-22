@@ -58,8 +58,10 @@ a:hover{
 
 .icono {
   position: absolute;
+  display: flex;
   bottom: 20px;
-  left: 115px;
+  left: 105px;
+  gap: 15px;
 }
 
 
