@@ -16,6 +16,7 @@ body {
     display: inline-block;
     position: relative;
     border-radius: 5px;
+    background-color: #ff2cfd;
   }
   a:hover,
   button:hover {
@@ -33,7 +34,7 @@ header {
   nav {
     background-color: #0e0f0f;
     img {
-      width: 13rem;
+      width: 8rem;
     }
     #search {
       border: none;
@@ -90,6 +91,9 @@ footer {
   font-family: oswald;
   font-weight: 300;
 
+  .imgfooter {
+    width: 15rem;
+  }
   .listafooter {
     list-style: none;
     color: white;
