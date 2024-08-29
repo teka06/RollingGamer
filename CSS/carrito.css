@@ -1,6 +1,12 @@
 main {
   background-color: #202324;
   display: flex;
+  min-height: 65vh;
+
+  .productoscarrito {
+    outline: 2px solid #181a1b;
+    border-radius: 5px;
+  }
 
   .lista {
     list-style-type: none;
@@ -42,13 +48,27 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-radius: 5PX;
+        border-radius: 5px;
         outline: 1px solid #ff2cfd;
         padding: 0.5 1rem;
 
         .btn {
           color: white;
           border-radius: 0;
+        }
+
+        .btnmenos {
+          --bs-btn-padding-y: 0.25rem;
+          --bs-btn-padding-x: 0.5rem;
+          --bs-btn-font-size: 0.75rem;
+          border-right: 1px SOLID #ff2cfd;
+          padding-right: 10px;
+        }
+        .btnmas {
+          --bs-btn-padding-y: 0.25rem;
+          --bs-btn-padding-x: 0.5rem;
+          --bs-btn-font-size: 0.75rem;
+          border-left: 1px solid #ff2cfd;
         }
       }
       .precio {
@@ -68,46 +88,43 @@ main {
     }
   }
   .detalles {
-    
-
-    .envio, .cupon {
-       input {
-            background-color: transparent;
-            border: none;
-            outline: 1PX SOLID #ff2cfd;
-            border-radius: 0;
-            padding: 2px 5px;
-        }
-        input:hover {
-            box-shadow: 0 0 3px 2px #ff2cfd;
-        }
-        input:focus {
-            color: #ffffff;
-            outline: none;
-            box-shadow: 0 0 4px 2.5px #a41ca2;
-        }
-        input::placeholder {
-            color: rgb(59, 59, 59);
-        }
+    .envio,
+    .cupon {
+      input {
+        background-color: transparent;
+        border: none;
+        outline: 1px SOLID #ff2cfd;
+        border-radius: 0;
+        padding: 2px 5px;
+      }
+      input:hover {
+        box-shadow: 0 0 3px 2px #ff2cfd;
+      }
+      input:focus {
+        color: #ffffff;
+        outline: none;
+        box-shadow: 0 0 4px 2.5px #a41ca2;
+      }
+      input::placeholder {
+        color: rgb(59, 59, 59);
+      }
     }
   }
 }
 
 @media (min-width: 768px) {
-    .lista {
-        li {
-            flex-direction: row;
-            align-items: center;
-            gap: 3rem;
-        }
-        .product {
-            flex-direction: row;
-            width: 50%;
-        }
-        .precio {
-            margin-top: 0;
-        }
+  .lista {
+    li {
+      flex-direction: row;
+      align-items: center;
+      gap: 3rem;
     }
-
-    
+    .product {
+      flex-direction: row;
+      width: 50%;
+    }
+    .precio {
+      margin-top: 0;
+    }
+  }
 }
