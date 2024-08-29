@@ -1,0 +1,12 @@
+main {
+  background-color: #202324;
+  font-family: oswald;
+
+  .botonerror {
+    --bs-btn-font-size: 1rem;
+    background-color: #ff2cfd;
+    font-weight: 400;
+    width: 8rem;
+    height: 3rem;
+  }
+}
