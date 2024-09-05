@@ -90,7 +90,7 @@ main {
     background-color: #ff2cfd;
   }
   .bannerfinal {
-    background-image: url(/RollingGamer/assets/banner/bannerfinal.jpg);
+    background-image: url(/assets/banner/bannerfinal.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
