@@ -3,6 +3,23 @@ main {
     padding: 8%;
     padding-top: 2%;
     padding-bottom: 0%;
+    min-height: 100vh
+}
+
+.navbar-toggler i {
+    color: #ffffff;
+}
+
+.card-custom {
+    background-color: #181a1b;
+}
+
+.card-title-custom {
+    font-weight: 300;
+}
+
+.card-text-custom {
+    font-weight: 500;
 }
 
 .box-detail {
