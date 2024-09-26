@@ -56,6 +56,29 @@ main {
     color: var(--bs-accordion-active-color)
 }
 
+.card-custom {
+    background-color: #181a1b;
+  }
+  
+  .card-title-custom {
+    font-weight: 300;
+  }
+  
+  .card-text-custom {
+    font-weight: 500;
+  }
+
+
+.my-custom-button {
+    --bs-btn-padding-y: 0.25rem;
+    --bs-btn-padding-x: 0.1rem;
+    --bs-btn-font-size: 0.75rem;
+    background-color: #ff2cfd !important;
+    font-weight: 400;
+    width: 100%;
+  }
+
+
 .page-link {
     color: white;
     background-color: #202324;
