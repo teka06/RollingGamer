@@ -58,16 +58,19 @@ main {
 
 .card-custom {
     background-color: #181a1b;
-  }
-  
-  .card-title-custom {
-    font-weight: 300;
-  }
-  
-  .card-text-custom {
-    font-weight: 500;
-  }
+}
 
+.card-title-custom {
+    font-weight: 300;
+}
+
+.card-text-custom {
+    font-weight: 500;
+}
+
+nav[aria-label="breadcrumb"] {
+    --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E");
+}
 
 .my-custom-button {
     --bs-btn-padding-y: 0.25rem;
@@ -76,7 +79,7 @@ main {
     background-color: #ff2cfd !important;
     font-weight: 400;
     width: 100%;
-  }
+}
 
 
 .page-link {
